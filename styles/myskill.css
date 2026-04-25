@@ -3,7 +3,7 @@
 }
 .ul1{
     color: rgb(29, 150, 150);
-    font-size: 3.5vw;
+    font-size: 55px;
     filter: brightness(150%);
     animation: list1 1.5s ease-in-out ; 
      border: solid rgb(80, 83, 82);;
@@ -16,7 +16,7 @@
 }
 .ul2{
     color: rgb(29, 150, 150);
-    font-size: 3.5vw;
+    font-size: 55px;
     filter: brightness(150%);
     animation: list1 1.5s ease-in-out ;
     margin-left: 10vw;
