@@ -11,8 +11,8 @@
     margin-top: 15vh;
     height: auto;
     margin-bottom: 1vh;
-    width: 25vw;
-    margin-left: 10vw;
+    width: 500px;
+    margin-left: 400px;
 }
 .ul2{
     color: rgb(29, 150, 150);
@@ -24,7 +24,7 @@
     border-radius: 20px;
     margin-top: 15vh;
   height: auto;
-    width: 25vw;
+    width: 500px;
 
 }
 .list1,.list2{
@@ -33,7 +33,7 @@
 li{
     color: rgb(164, 171, 177);
     font-family: monospace;
-    font-size: 2.5vw;
+    font-size: 38px;
     margin-bottom: 2vh;
     filter: brightness(90%);
     animation :list2 2s ease-in-out;
