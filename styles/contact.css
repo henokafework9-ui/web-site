@@ -1,8 +1,8 @@
 .totalbox{
-    margin-left:24vw ;
+    margin-left:500px ;
     border: solid rgb(24, 179, 179);
     border-radius: 25px;
-    width: 45vw;
+    width: 900px;
     height: auto;
     margin-top: 5vh;
     animation: total 1s ease-in-out;
@@ -10,14 +10,14 @@
 label{
     color: white;
     font-size: 2.5vh;
-    margin-left: 2.3vw;
+    margin-left: 25px;
 }
 .name{
     margin: 2vh;
     background-color: transparent;
     border-color: rgb(139, 144, 142);
     border-radius: 10px;
-    width: 35vw;
+    width: 700px;
     height: 6vh;
     font-size: 20px;
     color: white;
@@ -28,7 +28,7 @@ label{
     background-color: transparent;
     border-color: rgb(139, 144, 142);
     border-radius: 10px;
-     width: 33vw;
+     width: 658px;
       height: 6vh;
     font-size: 20px;
     margin-bottom: 5vh;
@@ -39,7 +39,7 @@ label{
     background-color: transparent;
     border-color: rgb(139, 144, 142);
     border-radius: 10px;
-     width: 35vw;
+     width: 700px;
       height: 6vh;
     font-size: 20px;
     color: white;
@@ -50,7 +50,7 @@ textarea{
       background-color: transparent;
       border-color: rgb(139, 144, 142);
       border-radius: 10px;
-      width: 35vw;
+      width: 700px;
       height: 10vh;
       font-size: 20px;
       color: white;
@@ -59,8 +59,7 @@ textarea{
     border: solid aqua;
     background-color: aqua;
     padding: 3px;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 400px;
     font-size: 30px;
     border-radius: 10px;
     margin-bottom: 3vh;
@@ -87,8 +86,8 @@ img{
 }
 .phone{
     color: white;
-    font-size: 3vw;
-    margin-left: 0.5vw;
+    font-size: 40px;
+    margin-left: 10px;
     background-color: transparent;
     border: none;
 
@@ -108,7 +107,7 @@ img,.socialmedia a{
     text-decoration: none;
     color:rgb(186, 184, 184);
     border: solid  rgb(11, 151, 151);
-    width: 20vw;
+    width: 380px;
     border-radius: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2vw;
