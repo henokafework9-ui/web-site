@@ -14,7 +14,7 @@ h1{
     border: solid white;
     width: 480px;
     display: inline-block;
-    height: 300px;
+    height: 320px;
     border-radius: 20px;
     margin: 0.3cm;
     border-color: rgb(12, 117, 112);
@@ -27,7 +27,7 @@ h2{
     color: aliceblue;
     font-size: 55px;
     text-align: center;
-    filter: brightness(80%);
+    filter: brightness(100%);
 }
 
 p{
