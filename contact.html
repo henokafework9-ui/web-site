@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles/home.css">
+<link rel="stylesheet" href="styles/contact.css">
+<body>
+
+       <div class="navdiv">
+        <nav>
+            <a href="home.html">Home</a> 
+            <a href="project.html">Project</a> 
+             <select onchange="location=this.value;">
+                <option>About</option>
+                <option class="option1" value="mybio.html">biograph</option>
+                <option value="myskill.html">Skill</option>
+            </select>
+            <a href="contact.html"> Contact</a> 
+        </nav>
+    </div>
+    <div class="get">
+         <select class="option2" onchange="location=this.value;">
+                <option>Socialmedia</option>
+                <option value="http://github.com/henokafework9-ui">
+                    Github</option>
+                <option  value="http://t.me/@henokafework">
+                    Telegram</option>
+                 <option value="http://www.linkedin.com/in/henok-afework-a5348b401/">
+                    Linkedin</option>
+                  <option value="http://www.instagram.com/henokafework9">
+                    Instagram</option>
+            </select>
+    </div>
+    <div class="totalbox">
+        <label>Name:</label><input class="name"
+        placeholder="Enter your name"><br>
+        <label>laste name:</label><input class="least"
+        placeholder="enter your least name"><br>
+        <label>Email:</label><input class="emailbox"
+        placeholder="Enter your email"><br>
+        <label class="Message">Message:</label>
+        <textarea placeholder="Enter your Message " class="msg"></textarea><br>
+        <button class="sendbutton" onclick="sendmessage()">Send</button>
+    </div>
+    <div class="phone" ><button class="phone" onclick="Call();">
+        <img src="image/phone.jpg">call to me</button>
+    </div><br>
+     <div class="socialmedia">
+    <a href="http://t.me/@henokafework" target="_blank">
+           <img src="image/telegram.jpg">  Telegram</a>
+        <a href="http://www.instagram.com/henokafework9"> 
+            <img src="image/instagram.jpg">Instagram</a>
+        <a href="http://www.linkedin.com/in/henok-afework-a5348b401/"> 
+            <img src="image/linkedin.jpg">linked In </a>
+        <a href="http://github.com/henokafework9-ui"><img src="image/github.jpg">Git Hub</a>
+    </div>
+    
+    <script>
+           function sendmessage(){
+             let name=document.querySelector(".name").value;
+             let secondname = document.querySelector(".least").value;
+             let email = document.querySelector(".emailbox").value;
+            let msg= document.querySelector(".msg").value;
+            if( msg==="" || name==="" ){
+                alert("please fill correctly");
+                return;
+            }
+           let phoneno="251947257165";
+            
+            
+            const fullmessage = "username:"+ name + secondname + "\nemail:"
+            +email+"\nmessage:"+msg;
+            window.location.href = "sms:"+phoneno+"?body="+
+            encodeURIComponent(fullmessage);
+        }
+        function Call(){
+            window.location.href= "tel:251947257165";
+        }
+    </script>
+</body>
+</html>

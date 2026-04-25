@@ -1,0 +1,146 @@
+.totalbox{
+    margin-left:24vw ;
+    border: solid rgb(24, 179, 179);
+    border-radius: 25px;
+    width: 45vw;
+    height: auto;
+    margin-top: 5vh;
+    animation: total 1s ease-in-out;
+}
+label{
+    color: white;
+    font-size: 2.5vh;
+    margin-left: 2.3vw;
+}
+.name{
+    margin: 2vh;
+    background-color: transparent;
+    border-color: rgb(139, 144, 142);
+    border-radius: 10px;
+    width: 35vw;
+    height: 6vh;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5vh;
+}
+.least{
+     margin: 2vh;
+    background-color: transparent;
+    border-color: rgb(139, 144, 142);
+    border-radius: 10px;
+     width: 33vw;
+      height: 6vh;
+    font-size: 20px;
+    margin-bottom: 5vh;
+    color: white;
+}
+.emailbox{
+     margin: 2vh;
+    background-color: transparent;
+    border-color: rgb(139, 144, 142);
+    border-radius: 10px;
+     width: 35vw;
+      height: 6vh;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5vh;
+}
+textarea{
+      margin: 2vh;
+      background-color: transparent;
+      border-color: rgb(139, 144, 142);
+      border-radius: 10px;
+      width: 35vw;
+      height: 10vh;
+      font-size: 20px;
+      color: white;
+}
+.sendbutton{
+    border: solid aqua;
+    background-color: aqua;
+    padding: 3px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 800;
+    transition: background-color 1s;
+
+}
+.sendbutton:hover{
+    background-color:transparent;
+    color: aqua;
+    cursor:pointer;
+}
+img{
+    width: 60px;
+    height: 65px;
+    border-radius: 50px;
+}
+.phone,.totalbox{
+    display: inline-block;
+    vertical-align: middle;
+}
+.phone{
+    color: white;
+    font-size: 3vw;
+    margin-left: 0.5vw;
+    background-color: transparent;
+    border: none;
+
+}
+.phone:hover{
+    color: aqua;
+    opacity: 0.7;
+    cursor: pointer;
+}
+img,.socialmedia a{
+    display: inline-block;
+    vertical-align: middle;
+}
+.socialmedia a{
+    vertical-align: top;
+    margin: 0.5cm;
+    text-decoration: none;
+    color:rgb(186, 184, 184);
+    border: solid  rgb(11, 151, 151);
+    width: 20vw;
+    border-radius: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    height: 60%;
+    padding: 1vh;
+    display: inline-block;
+    animation: rotate 1s ease-in-out;
+}
+.socialmedia a:hover{
+    opacity: 0.6;
+    border-color: gray;
+    color: aqua;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(180deg);
+        scale: 0;
+        opacity: 0;
+    }
+    to{
+        transform: rotate(0deg);
+        scale: 1;
+        opacity: 1;
+    }
+}
+@keyframes total{
+    from{
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

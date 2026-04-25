@@ -1,0 +1,135 @@
+
+.buttons{
+    display: flex;
+}
+.educationbutton{
+    color: black;
+    background-color: rgb(28, 225, 225);
+    padding: 2px;
+    padding-left: 2vh;
+    border: solid none;
+    padding-right: 2vh;
+    border-radius: 15px;
+    margin: 2vh;
+      margin-left: 0.3vw;
+    font-size: 2vw;
+      animation: me 2.3s ease-in-out;
+}
+.familybutton{
+    color: black;
+    background-color: rgb(33, 216, 216);
+    padding: 2px;
+    padding-left: 2vh;
+    border: solid none;
+    padding-right: 2vh;
+    border-radius: 15px;
+    margin: 3vh;
+    margin-left: 0.3vw;
+    font-size: 2vw;
+      animation: me 2.3s ease-in-out;
+}
+.familybutton:hover{
+ background-color:transparent;
+    color: aqua;
+}
+.educationbutton:hover{
+ background-color:transparent;
+    color: aqua;
+}
+.me{
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 3vh;
+    text-align: center;
+    filter: brightness(200%);
+    animation: me 2s ease-in-out;
+}
+.p1{
+    font-size: 2.4vh;
+    font-family: monospace;
+    text-align: center;
+}
+span{
+    font-weight:600;
+}
+.hide1,.hide2{
+    margin-left: 30vw;
+    background-color: transparent;
+    border: solid gray 1.5px;
+    box-shadow: 2px 2px 10px;
+    color: aqua;
+    font-size: 1vw;
+    border-radius: 40px;
+    margin-bottom: 1vh;
+    margin-right: 3vw;
+}
+.hide1:hover{
+    background-color: aqua;
+    color:black;
+     font-weight: bold;
+    box-shadow: none;
+}
+.hide2:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    box-shadow: none;
+}
+.EF{
+    display: inline-block;
+    color: rgb(79, 77, 77);
+    font-size: 2vw;
+    margin-left: 15vw;
+    animation: me2 5s ease-in-out;
+}
+.myE{
+    transition: opacity 1s;
+    color: white;
+    opacity: 0;
+    border: solid;
+    border-color: rgb(13, 78, 78);
+    filter: brightness(130%);
+    width: 36vw;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 4vh;
+    position: relative;
+
+}
+.myF{
+     transition: opacity 1s;
+    color: white;
+    opacity: 0;
+    border: solid;
+    border-color: rgb(13, 78, 78);
+    filter: brightness(130%);
+    width: 36vw;
+    height: auto;
+    position: relative;
+    border-radius: 30px;
+    margin-left: 10vw;
+    text-align: center;
+
+}
+.myF,.myE{
+    display: inline-block;
+    vertical-align: top;
+}
+@keyframes me {
+from{
+    opacity: 0;
+    transform: translateX(-100px);
+}
+to{
+    opacity: 1;
+    transform: translateX(0px);
+}
+}
+@keyframes me2 {
+from{
+    opacity: 0;
+}
+to{
+    opacity: 1;
+}
+}

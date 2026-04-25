@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/mybio.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+   <div class="navdiv">
+        <nav>
+            <a href="home.html">Home</a> 
+            <a href="project.html">Project</a> 
+             <select onchange="location=this.value;">
+                <option>About</option>
+                <option class="option1" value="mybio.html">biograph</option>
+                <option value="myskill.html">Skill</option>
+            </select>
+            <a href="contact.html"> Contact</a> 
+        </nav>
+    </div>
+     <div class="get">
+         <select  class="option2" onchange="location=this.value;">
+                <option>Socialmedia</option>
+                <option class="option1" value="http://github.com/henokafework9-ui">
+                    Github</option>
+                <option value="http://t.me/@henokafework">
+                    Telegram</option>
+                 <option value="http://www.linkedin.com/in/henok-afework-a5348b401/">
+                    Linkedin</option>
+                  <option value="http://www.instagram.com/henokafework9">
+                    Instagram</option>
+            </select>
+    </div>
+   <p class="me"> My name is Henok Afework.I was born in 2001E.C.I live in ethiopia now.<br>
+                  this is my personal website created to share my ideas, interests , and<br>
+                  learning journey.I am a student in Kolfe Secondery school and I like write <br>
+                  code and explor new technologies.it started as simple project while i am<br>
+                   learning web development.I enjoy learning new skill and improving my coding<br>
+                    ability every day.This website reflect my growth, creativity, and passion <br>
+                    for technologies.<span>Thank you for visiting my website!</span>  </p>
+   <div>
+      <p class="EF">about my</p>
+   <button class="educationbutton">Education</button>
+   <p class="EF">about my</p>
+   <button class="familybutton">Family</button></div>
+<div class="myE">
+    <p class="p1">My education started at primary school where <br>
+                  I built astrong foundation in basic subjects<br>
+                  i am currently in grade 11 and continuing my<br>
+                  studies while also learning web development <br>
+               and coding. <br>
+                 over all my education focused on improving my <br>
+               knowledge and skill for the futur</p>
+    <button class="hide1">hide</button>
+</div>
+  <div class="myF">
+   <P class="p1">MY family is very important to me and they <br>
+                 always support me in my life and studies.<br>
+                 We live together in Ethiopia.shear strong<br>
+                 relationship of love and respect.<br>
+                 My family encourage me to work hard, learn<br>
+                 new thing, and achieve my goals.</P>
+   <button class="hide2">hide</button>
+  </div>
+</body>
+<script>
+     const par = document.querySelector('.myE');
+     const button = document.querySelector('.educationbutton');
+    function display(){
+        
+       par.style.opacity="1"
+    
+    }
+    button.addEventListener("click" , display);
+
+  const div2 = document.querySelector('.myF');
+     const button2 = document.querySelector('.familybutton');
+    function display2(){
+        
+       div2.style.opacity="1"
+    
+    }
+    button2.addEventListener("click" , display2);
+
+
+      const div3 = document.querySelector('.myE');
+     const button3 = document.querySelector('.hide1');
+    function display3(){
+        
+       div3.style.opacity="0"
+    
+    }
+    button3.addEventListener("click" , display3);
+
+      const div4 = document.querySelector('.myF');
+     const button4 = document.querySelector('.hide2');
+    function display4(){
+        
+       div4.style.opacity="0"
+    
+    }
+    button4.addEventListener("click" , display4);
+</script>
+</html>
