@@ -5,7 +5,7 @@ body{
 h1{
     border: solid rgb(12, 117, 112) 2px;
     border-width: 1px;
-    width: 100%;
+    width: 110%;
     animation: move 10s infinite;
     position: relative;
 }
@@ -145,7 +145,7 @@ span{
        transform: translateY(0px);
     }
     to{
-        transform: translateY(100vh);
+        transform: translateY(140vh);
     }
 }
 @keyframes explain{
