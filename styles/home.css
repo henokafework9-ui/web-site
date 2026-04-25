@@ -145,7 +145,7 @@ span{
        transform: translateY(0vh);
     }
     to{
-        transform: translateY(140vh);
+        transform: translateY(110vh);
     }
 }
 @keyframes explain{
