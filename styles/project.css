@@ -12,27 +12,20 @@ h1{
 }
 .game,.todo,.maths,.copy{
     border: solid white;
-    width: 28vw;
+    width: 480px;
     display: inline-block;
-    height: auto;
+    height: 300px;
     border-radius: 20px;
     margin: 0.3cm;
     border-color: rgb(12, 117, 112);
     margin-left: 2%;
+    margin-top:50px;
     animation: project 2s ease-in-out;
 }
-.game {
-    margin-top: 10vh;
-}
-.copy{
-    margin-bottom: 1cm;
-}
-.copy {
-    margin-top: 10vh;
-}
+
 h2{
     color: aliceblue;
-    font-size: 3.4vw;
+    font-size: 55px;
     text-align: center;
     filter: brightness(80%);
 }
